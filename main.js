@@ -36,11 +36,11 @@ let users = [
    
  
  let newMapped = newUsers.map(x => {
-  let obj = {}
-  let name = x['name']
-  obj.name = x.likes
-  obj.age = x.name.length * 10
   
+  let obj = {
+   [x.name]: x.likes,
+  age: x.name.length *3
+  }
   return obj
  })
 
