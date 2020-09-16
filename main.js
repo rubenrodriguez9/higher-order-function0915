@@ -39,7 +39,7 @@ let users = [
   
   let obj = {
    [x.name]: x.likes,
-  age: x.name.length *3
+  age: x.name.length * 10
   }
   return obj
  })
